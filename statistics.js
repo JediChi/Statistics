@@ -25,7 +25,7 @@ class Statistics {
         // sort the array
         arr.sort((a, b) => a - b);
 
-        // use linear transversal and find the most fequent
+        // use linear transversal and find the most frequent
         let mostCount = 1, 
         result = arr[0];
         let currentCount = 1;
